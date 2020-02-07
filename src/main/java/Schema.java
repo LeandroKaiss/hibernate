@@ -1,8 +1,9 @@
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
 @Table(name = "table1")
-public class Schema {
+public class Schema implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")

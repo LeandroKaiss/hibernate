@@ -1,0 +1,3 @@
+3 sample 41 
+4 Origin 33 
+7 Original 2000 
